@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-colorido_23-2148807053.jpg?size=626&ext=jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 180px;
+}
+.card{
+	background-color: #ffffff80;
+	padding: 30px;
+	border-radius: 2%;
+	box-shadow: 3px 3px 1px 0px#00000060;
+	width: 40%;
+}
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: blue;
+}
+.label_float input{
+	width: 100%;
+	padding: 5px 5px;
+	display: inline-block;
+	border: 0;
+	border-bottom: 2px solid blue;
+	background-color: transparent;
+	outline: none;
+	min-width: 180px;
+	font-size: 16px;
+	transition: all .5s ease-out;
+	border-radius: 0;
+}
+.label_float{
+	position: relative;
+	padding-top: 13px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.label_float input:focus{
+	border-bottom: 2px solid blue;
+}
+.label_float label{
+	color: blue;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+}
+.label_float input:focus + label,
+.label_float input:valid + label{
+	font-size: 13px;
+	margin-top: 0;
+	color: #4038a0;
+}
+button{
+	background-color: transparent;
+	border-color: #272262;
+	color: blue;
+	padding: 7px;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-top: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	transition: all .5s ease-out;
+	width: 300px;
+}
+button:hover{
+	background-color: #4038a0;
+	color: white;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+hr{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 60%;
+}
+p{
+	color: #4038a0;
+	font-size: 14pt;
+	text-align: center;
+}
+a{
+	color: #7a3077;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s ease-out;
+}
+a:hover{
+	color: #272262;
+}
+.icones_login{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo-tipo-google{
+	width: 100%;
+	
+}
+.logo-tipo-fecebook{
+	width: 60%;
+	margin-left: 25px;
+	top: 235px;
+	left: 150px;
+}
+.logo-tipo-instagram{
+	width: 50%;
+	margin-left: 25px;
+	left: 300px;
+	top: 235px;	
+}
+
+.logo-tipo-google:hover{
+	width: 105%;
+	transition: .5s ease-out;
+	
+}
+.logo-tipo-fecebook:hover{
+	width: 62%;
+	transition: .5s ease-out;
+}
+.logo-tipo-instagram:hover{
+	width: 52%;
+	transition: .5s ease-out;
+}
+
