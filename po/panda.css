@@ -1,0 +1,153 @@
+body{
+	background: linear-gradient(#CCCCCC,#888888)
+}
+h1{
+	font-size: 2rem;
+	text-align: center;
+}
+.titulo-historia-panda{
+	font-size: 2rem;
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 7px
+
+}
+.imagem-panda-cabecalho{
+	width: 100vw;
+}
+.titulo-filme{
+	padding-top: 10px;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 5px;
+	font-size: 25px;
+}
+
+.box span{
+	font-size: 1.2em;
+	cursor: pointer;
+	background-color: yellow;
+	color: black;
+	border-radius: 5px;
+	position: absolute;
+	left:94%;
+	top:0px;
+	padding: 1px;
+}
+nav{
+	background-size: 120%;
+	height: 0px;
+	overflow: hidden;
+	background-image: url("http://1.bp.blogspot.com/_fArJIcSV41k/SG31H0-mz6I/AAAAAAAABlk/KosjxyZ6wFE/s400/kungfupanda2_div.jpg");
+	color: white;
+	background-position-x:-6px; 
+	background-position-y: -28px;
+	background-repeat: no-repeat;
+}
+
+nav a {
+	font-size: 110%;
+	display: flex;
+	text-transform: uppercase;
+	color: white;
+	text-decoration:none;
+	padding: 2em;
+	cursor: pointer;
+}
+.mostrar {
+	width: 25%;
+	border-radius: 10px;
+	
+	top: 0px;
+	position: absolute;
+	
+	margin-top: 25px; 
+	height: 262px !important;
+	transition: 2s;
+	margin-left: 752px;
+}
+nav a:hover {
+	color: #0bdbe6;
+}
+.box span:hover{
+	background-color: red;
+	color: white;
+	font-size: 1.2em;
+	transition: 1s;
+
+}
+
+.box span:active{
+	background-color: green;
+	color: blue;
+}
+.filmes-kung-fu-panda{
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+.primeira-imagem-fime-panda{
+	width: 216px;
+}
+.terceira-imagem-fime-panda{
+	width: 216px;
+}
+.primeira-imagem-fime-panda:hover{
+	border: 2px solid;
+	border-radius: 10px;
+}
+.segunda-imagem-fime-panda:hover{
+	border: 2px solid;
+	border-radius: 10px;
+}
+.terceira-imagem-fime-panda:hover{
+	border: 2px solid;
+	border-radius: 10px;
+}
+.video-resumo{
+	position: absolute;
+	right: 200px;
+	top: 1300px;
+}
+.titulo-filmes{
+	font-size: 2em;
+	text-align: center;
+}
+.titulo{
+	font-size: 2em;
+	position: absolute;
+	top: 1690px;
+	right: 272px;
+	text-align: center;
+}
+.lista-panda, li{
+	margin-left: 10px;
+	font-style: italic;
+	position: absolute;
+	top: 1760px;
+	font-size: 1.3rem;
+}
+.li{
+	top: 1790px;
+
+}
+.li2{
+	top: 1810px;
+}
+.li3{
+	top: 1860px;
+}
+.video-historia-do-po{
+	padding-top: 10px;
+}
+.footer-panda{
+	width: 100%;
+    height: 370px;
+}
+.Copyright{
+	position: absolute;
+    top: 1735px;
+    left: 300px;
+    color: honeydew
+}

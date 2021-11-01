@@ -1,0 +1,15 @@
+.footer-panda{
+	width: 100%;
+    height: 370px;
+    position: absolute;
+    top: 1900px;
+}
+.Copyright{
+	position: absolute;
+    top: 2230px;
+    left: 270px;
+    color: honeydew
+}
+body{
+	background-color: red;
+}

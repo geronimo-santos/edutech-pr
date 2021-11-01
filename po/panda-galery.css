@@ -1,0 +1,191 @@
+
+.box span{
+	font-size: 1.2em;
+	cursor: pointer;
+	background-color: yellow;
+	color: black;
+	border-radius: 5px;
+	position: absolute;
+	left:94%;
+	top:0px;
+	padding: 1px;
+}
+nav{
+	background-size: 120%;
+	height: 0px;
+	overflow: hidden;
+	background-image: url("http://1.bp.blogspot.com/_fArJIcSV41k/SG31H0-mz6I/AAAAAAAABlk/KosjxyZ6wFE/s400/kungfupanda2_div.jpg");
+	color: white;
+	background-position-x:-6px; 
+	background-position-y: -28px;
+	background-repeat: no-repeat;
+}
+
+nav a {
+	font-size: 110%;
+	display: flex;
+	text-transform: uppercase;
+	color: white;
+	text-decoration:none;
+	padding: 2em;
+	cursor: pointer;
+}
+.mostrar {
+	width: 25%;
+	border-radius: 10px;
+	
+	top: 0px;
+	position: absolute;
+	
+	margin-top: 25px; 
+	height: 262px !important;
+	transition: 2s;
+	margin-left: 752px;
+}
+nav a:hover {
+	color: #0bdbe6;
+}
+.box span:hover{
+	background-color: red;
+	color: white;
+	font-size: 1.2em;
+	transition: 1s;
+
+}
+
+.box span:active{
+	background-color: green;
+	color: blue;
+}
+
+h1{
+	font-size: 2rem;
+	text-align: center;
+}
+.paragrafo-galery{
+	padding-top: 0.5rem;
+	 font-size: 1.55rem;
+    line-height: normal;
+    margin: auto 11rem;
+
+}
+.cabecalho-galery{
+	background-color: #d3d923;
+	font-family: 'Montserrat', sans-serif;
+}
+/*css galery*/
+ul{
+	width: 880px;
+	list-style: none;
+	display: flex;
+	margin: 100px auto;
+	flex-wrap: wrap;
+}
+li{
+	width: 33%;
+}
+.min{
+	width: 200px;
+	padding: 10px;
+}
+.min:hover{
+	width: 14rem;
+	transition: 1s;
+}
+.lbox{
+	visibility: hidden;
+	opacity: 0;
+}
+.lbox:target{
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(10,10,10,.7);
+	position: fixed;
+}
+.box_img{
+	width: 1000px;
+	margin: 150px auto;
+}
+.btn{
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+
+}
+#prev{
+	left: 5%;
+	top: 45%;
+}
+#next{
+	right: 5%;
+	top: 45%
+}
+#close{
+	top: 2%;
+	right: 2%;
+	left: 0;
+}
+
+#prev:hover{
+	color: #6530e3;
+  	transition: 0.5s;
+	
+}
+#next:hover{
+	color: green;
+	transition: 0.5s;
+}
+#close:hover{
+	background-color: red;
+	border-radius: 10px;
+	width: 2em;
+	transition: 1s;
+	
+}
+#close:active{
+	background-color: green;
+	color: blue;
+	transition: 1s;
+}
+
+.box_img img{
+	opacity: 0;
+}
+.lbox:target .box_img img{
+	opacity: 1;
+	transition: opacity .4s linear
+}
+.imagem-panda-galery{
+	width: auto;
+    height: auto;
+    position: absolute;
+    right: 205px;
+    top: 100px;
+}
+
+.imagem-1:target{
+	width: 72%;
+}
+.footer-panda{
+    width: 100%;
+    position: absolute;
+    height: 370px;
+    top: 1370px;
+}
+.Copyright{
+	font-size: 1.5rem;
+    position: absolute;
+    top: 1703px;
+    left: 300px;
+    color: honeydew;
+    font-family: 'Montserrat', sans-serif;
+}

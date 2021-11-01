@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<title>Po</title>
+	<link rel="stylesheet" type="text/css" href="reset.css"> 
+	<link rel="stylesheet" type="text/css" href="panda.css">
+	<link rel="stylesheet" type="text/css" href="css_rodape-inicio.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<img src="https://images6.alphacoders.com/690/thumb-1920-690190.jpg" alt="Logo do Po" class="imagem-panda-cabecalho">
+	<center><h1>O panda</h1></center>
+	<br>
+	<p>O po de kung fu panda é um urso panda que vive no vale da paz um fanático por kung fu o "po" é um personagem muito inspirador muito alegre e divertido  </p>
+
+	<h1 class="titulo-filme">Temos aqui a trilogia de filmes "kung fu panda"</h1>
+
+	<section class="filmes-kung-fu-panda">
+		<img class="primeira-imagem-fime-panda" src="https://br.web.img3.acsta.net/medias/nmedia/18/87/83/19/19962001.jpg">
+		<img class="segunda-imagem-fime-panda" src="https://br.web.img3.acsta.net/medias/nmedia/18/87/91/51/19962850.jpg">
+		<img class="terceira-imagem-fime-panda" src="https://vortexcultural.com.br/images/2017/11/kung_fu_panda_three_ver3_xlg.jpg">
+	</section>
+
+	
+	<h2 class="titulo-filmes">Filmes</h2>
+
+	<p>Os filmes de kung fu panda tiveram muito sucesso considerados filmes muito bons alcançaram um grande percentual de bilheteria.Confira nesse video abaixo um resumão dos filmes de kung fu panda 1,2 e 3 uma trilogio de filmes simplesmente sensacional assisti quase todos e vale muito a pena.</p>
+
+	<center><iframe class="video-resumo" width="640" height="360" src="https://www.youtube.com/embed/LQCuWnRj8T8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+	<h2 class="titulo">Porque eu escolhi o personagem panda.</h2>
+	<ul class="lista-panda"> </ul>
+	<li class="li1">O modo como ele resolve seus problemas de uma forma alegre e divertida </li>
+	<li class="li2">Luta com seus inimigos brincando e fazendo graça me inspirou bastante</li>
+	<li class="li3">Uma representação de força e persistência nunca desistir de seus sonhos</li>
+	<li class="li4"></li>
+	<div class="box">
+
+		<span>Menu</span>
+
+		<nav>
+
+			<a href="panda.html">início</a>
+
+
+			<a href="panda-historia.html">história do panda</a>
+
+
+			<a href="galery-panda.html">galery</a>
+
+		</nav>
+	</div>
+	<script>
+		document.querySelector('.box')
+		.addEventListener('click',()=>{
+
+			var conteudo = document.querySelector('.box  nav');
+
+			var span = document.querySelector('span');
+			if (conteudo.classList.contains('mostrar')) {
+				conteudo.classList.remove('mostrar');
+				span.innerHTML = 'Menu'
+			}else{
+				conteudo.classList.add('mostrar');
+				span.innerHTML = 'Ocultar'
+			}
+
+		})
+		var titulo = document.querySelector('.titulo-filmes')
+		titulo.addEventListener('click',()=>{
+			alert("executando um evento de 'click'com js")
+
+		})
+	</script>
+	<footer class="rodape-panda">
+		<img src="https://7wallpapers.net/wp-content/uploads/6_Kung-Fu-Panda-3.jpg" class="footer-panda">
+		<p class="Copyright">&copy; Copyright Kung fu panda 2021</p>
+		
+	</footer>
+	
+</footer>
+</body>
+</html>
